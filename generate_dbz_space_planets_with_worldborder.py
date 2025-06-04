@@ -4,8 +4,8 @@ import random
 
 # --- Configuration ---
 NUM_PLANETS = 10000
-MIN_DIST = 400
-MAX_DIST = 700
+MIN_DIST = 1200
+MAX_DIST = 3000
 SPACE_ORIGIN = (0, 100, 0)  # Y=100 so planets are not at void or too high
 TICK_FUNCTION_FILE = "data/dbz_space/functions/tick.mcfunction"
 PLANET_MARKERS_FILE = "data/dbz_space/planet_markers.json"
